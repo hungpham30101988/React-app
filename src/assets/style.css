@@ -1,0 +1,63 @@
+body {
+  background-color: #f2f2f2; }
+
+.App {
+  padding-top: 30px; }
+  .App .gifphy {
+    background-color: #fff;
+    padding: 5px; }
+    .App .gifphy .gifphy-photo {
+      margin-bottom: 7px; }
+      .App .gifphy .gifphy-photo img {
+        max-width: 100%; }
+      .App .gifphy .gifphy-photo .gifphy-photo-grid {
+        height: 100px;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center; }
+    .App .gifphy .gifphy-info span {
+      color: #a9a9a9;
+      font-size: 12px;
+      margin-left: 10px; }
+      .App .gifphy .gifphy-info span:first-child {
+        margin-left: 0; }
+      .App .gifphy .gifphy-info span i {
+        margin-right: 3px; }
+    .App .gifphy .gifphy-link {
+      color: #a9a9a9;
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      font-size: 16px;
+      z-index: 2;
+      text-decoration: none !important; }
+  .App .gifphy-user {
+    margin-top: 10px;
+    margin-bottom: 15px; }
+    .App .gifphy-user .gifphy-user-avatar {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      overflow: hidden;
+      border-radius: 50%; }
+      .App .gifphy-user .gifphy-user-avatar img {
+        max-width: 100%; }
+    .App .gifphy-user .gifphy-user-name {
+      font-size: 13px;
+      padding-left: 40px;
+      margin: 0;
+      line-height: 30px;
+      text-transform: capitalize;
+      -ms-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .App .gifphy .gifphy-photo .gifphy-photo-grid {
+    height: 150px; } }
+
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
