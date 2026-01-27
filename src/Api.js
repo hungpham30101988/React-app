@@ -12,6 +12,7 @@ const api = {
       mode: 'cors', // no-cors, cors, *same-origin
       redirect: 'follow', // manual, *follow, error
       referrer: 'no-referrer', // *client, no-referrer
+      testing: "testing123"
     })
     .then(response => response.json()) // parses response to JSON
   }
