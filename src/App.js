@@ -9,7 +9,7 @@ import {
 import Gifphy from './components/Gifphy';
 
 // import photo viewer library JS for app
-// JQuery is dependency of FANCYBOX
+// JQuery is dependency of FANCYBOX sss
 import $ from 'jquery';
 window.jQuery = $;
 require('@fancyapps/fancybox/dist/jquery.fancybox');
