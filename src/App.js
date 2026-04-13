@@ -14,6 +14,10 @@ import $ from 'jquery';
 window.jQuery = $;
 require('@fancyapps/fancybox/dist/jquery.fancybox');
 
+// branch A commit 'A'
+
+
+
 class App extends Component {
   constructor(props) {
     super(props);
